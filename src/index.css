@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    .align-element {
+        @apply mx-auto max-w-6xl px-8
+    }
+}
+
+a.active {
+    background-color: orangered;
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 10px;
+}
+.text-3xl {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
